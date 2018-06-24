@@ -1,0 +1,54 @@
+.container-fluid p {
+    width:80%;
+    margin:auto;
+    height:calc(200px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size:calc(40px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    padding-top:calc(1px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.jumbotron {
+    background-color:#06ACEF;
+    margin:auto;
+    border:2.1em solid #00a2e3;
+    height:80vh;
+}
+
+#box {
+    border-top:2px solid white;
+    border-left:2px solid white;
+    border-right:2px solid white;
+    width:85%;
+    height: calc(230px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.border-left, .border-right {
+    border-bottom:2px solid white;
+    margin-top:0px;
+    width:150px;
+}
+
+.border-left {
+    margin-left:calc(73px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.border-right {
+    margin-right:calc(73px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+button {
+    margin-top:calc(-40px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    margin-bottom: calc(20px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    border:2px solid white !important;
+    font-size:calc(19px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    word-wrap: break-word;
+}
+
+.fa {
+    padding-bottom:4px;
+}
+
+.fa:hover {
+    border-bottom: 1px solid white;
+}
+
+
